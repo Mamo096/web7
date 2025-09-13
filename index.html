@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction to weather</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+    <h1>Weather Meteorologist</h1>
+  <button class="btn" onclick="toggleSpin()">Toggle Spin</button>
+  <div id="box" class="box"></div>
+  div class="card" onclick="flipCard()">
+    <div class="card-inner">
+      <div class="card-front">Click Me</div>
+      <div class="card-back">Open Modal</div>
+    </div>
+  </div>
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <p>Meteorologist information goes here.</p>
+      <button class="close-btn" onclick="closeModal()">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
